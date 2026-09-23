@@ -13,10 +13,10 @@ body{
     
     background-color: #00918c;
     width: 100%;
-    height: 10%;  
+    height: 8%;  
 }
 img{
-    width: 10%;
+    width: 8%;
     position: relative;
     top: 20%;
     left: 1%;
@@ -27,14 +27,14 @@ img{
     align-items: center;
     height: 0%;
     position: relative;
-    left: 25%;
+    left: 20%;
 }
 #p2{
     font-weight: bold;
     font-size: 120%;
     position: relative;
     top: 1%;
-    left: 25%;
+    left: 20%;
 }
 #container2{
     
@@ -44,7 +44,7 @@ img{
     background-color: white;
     position: relative;
     bottom: 98%;
-    left: 25%;
+    left: 20%;
 }
 #span0{
     font-weight: bold;
@@ -82,7 +82,7 @@ img{
 }
 #span3{
     position: relative;
-    top: 8%;
+    top: 7%;
     left: 2%;
 }
 #input3{
@@ -91,12 +91,12 @@ img{
     border: 1px solid gray;
     border-radius: 5px;
     position: relative;
-    top: 8%;
+    top: 7%;
     left: 2%;
 }
 #span4{
     position: relative;
-    top: 10%;
+    top: 9%;
     left: 2%;
 }
 #input4{
@@ -105,12 +105,12 @@ img{
     border: 1px solid gray;
     border-radius: 5px;
     position: relative;
-    top: 10%;
+    top: 9%;
     left: 2%;
 }
 #span5{
     position: relative;
-    top: 12%;
+    top: 11%;
     left: 2%;
 }
 #input5{
@@ -119,12 +119,12 @@ img{
     border: 1px solid gray;
     border-radius: 5px;
     position: relative;
-    top: 12%;
+    top: 11%;
     left: 2%;
 }
 #span6{
     position: relative;
-    top: 14%;
+    top: 13%;
     left: 2%;
 }
 #input6{
@@ -133,12 +133,12 @@ img{
     border: 1px solid gray;
     border-radius: 5px;
     position: relative;
-    top: 14%;
+    top: 13%;
     left: 2%;
 }
 #span7{
     position: relative;
-    top: 16%;
+    top: 15%;
     left: 2%;
 }
 #input7{
@@ -147,12 +147,12 @@ img{
     border: 1px solid gray;
     border-radius: 5px;
     position: relative;
-    top: 16%;
+    top: 15%;
     left: 2%;
 }
 #span8{
     position: relative;
-    top: 18%;
+    top: 17%;
     left: 2%;
 }
 #input8{
@@ -161,14 +161,28 @@ img{
     border-radius: 5px;
     border: 1px solid gray;
     position: relative;
-    top: 18%;
+    top: 17%;
+    left: 2%;
+}
+#span9{
+    position: relative;
+    top: 19%;
+    left: 2%;
+}
+#input9{
+    width: 95%;
+    height: 4%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    position: relative;
+    top: 19%;
     left: 2%;
 }
 #bto1{
     background-color: #8aa3a3;
     border: none;
-    width: 7%;
-    height: 5%;
+    width: 10%;
+    height: 6%;
     border-radius: 6px;
     position: relative;
     top: 26%;
@@ -176,7 +190,7 @@ img{
 }
 #explore{
     background-color: white;
-    width: 20%;
+    width: 16%;
     height: 100%;
 
     position: relative;
