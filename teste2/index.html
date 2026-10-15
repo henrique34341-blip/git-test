@@ -10,12 +10,12 @@
 
     <div id="div1">
         <img src="img/logoIFCE.png" alt="">
-     <!-- <p id="t1">SEJA - SISTEMA DE ESTÁGIOS E JOVEM APRENDIZ</p> -->
+     <p id="t1">SEJA - SISTEMA DE ESTÁGIOS E JOVEM APRENDIZ</p>
     </div>
     
     <nav id="nav">
     <ul>
-      <li><a href="#">Estágios</a></li>
+      <li><a href="#" class="ativo">Estágios</a></li>
       <li><a href="#">Jovem aprendiz</a></li>
       <li><a href="#">Banco de Currículos</a></li>
       <li><a href="#">Seguros Ifce</a></li>
@@ -58,5 +58,17 @@
         <button id="bto">Buscar</button>
     </div>
     
+    <script>
+    const links = document.querySelectorAll('#nav ul li a');
+    
+    links.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            links.forEach(l => l.classList.remove('ativo'));
+            link.classList.add('ativo');
+        })
+    })
+</script>
+
 </body>
 </html>
